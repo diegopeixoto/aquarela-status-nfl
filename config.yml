@@ -16,7 +16,7 @@ params:
       name: AQUARELA Main Services
     - name: AQUARELA Main Repository
       category: lala
-    - name: AQUARELA Backup Repository [DEPRECATED\
+    - name: AQUARELA Backup Repository
       category: lala
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
