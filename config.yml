@@ -34,10 +34,10 @@ params:
   ok: "#008000"
   categories:
     - name: Latin America
-      closed: true
+      closed: false
       description: ""
     - name: North America
-      closed: true
+      closed: false
       description: ""
     - untitled: true
       name: lala
