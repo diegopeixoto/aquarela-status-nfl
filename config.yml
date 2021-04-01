@@ -1,28 +1,27 @@
-title: Eggsample Statuss
+title: AQUARELA Status
 buildFuture: true
-defaultContentLanguage: en
-languageCode: en
-baseURL: https://cstate.mnts.lt
+defaultContentLanguage: pt
+languageCode: pt-BR
+baseURL: https://status.aquarela.app
 params:
-  disableDarkMode: false
+  disableDarkMode: true
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: AQUARELA Cloud Server [Powered by Cloudez]
+      category: North America
+    - name: AQUARELA Baremetal SERVER
+      category: Latin America
+    - category: lala
+      name: AQUARELA Main Services
+    - name: AQUARELA Main Repository
+      category: lala
+    - name: AQUARELA Backup Repository [DEPRECATED\
+      category: lala
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   headerTextColor: white
-  logo: logo.png
+  logo: https://ik.imagekit.io/aquarela/aquarela-logo-mobile_1L3DYGIs6K.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   alwaysKeepBrandColor: true
@@ -31,19 +30,22 @@ params:
   disrupted: "#cc4400"
   notice: "#24478f"
   incidentHistoryFormat: yearly
-  disableIncidentHistory: false
+  disableIncidentHistory: true
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Latin America
       closed: true
-    - name: East Coast
-    - name: Uncategorized
-      untitled: true
+      description: ""
+    - name: North America
+      closed: true
+      description: ""
+    - untitled: true
+      name: lala
+      description: ""
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 theme: cstate
 preserveTaxonomyNames: true
 taxonomies:
