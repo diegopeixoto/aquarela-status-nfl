@@ -1,7 +1,7 @@
 title: AQUARELA Status
 buildFuture: true
 defaultContentLanguage: pt
-languageCode: pt-BR
+languageCode: en
 baseURL: https://status.aquarela.app
 params:
   disableDarkMode: true
