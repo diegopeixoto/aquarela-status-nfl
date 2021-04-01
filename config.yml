@@ -21,7 +21,7 @@ params:
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   headerTextColor: white
-  logo: https://ik.imagekit.io/aquarela/aquarela-logo-mobile_1L3DYGIs6K.png
+  logo: https://ik.imagekit.io/aquarela/aquarela-logo-white_2x_25PO7bVmQx.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   alwaysKeepBrandColor: true
